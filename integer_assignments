@@ -1,0 +1,79 @@
+# Question: Calculate the sum of first 5 even numbers
+num = [2, 4, 6, 8, 10]
+sum_num = sum(first_5_even)
+print(f"First 5 even numbers: {num}")
+print(f"Sum: {sum_num}")
+print("-" * 50)
+
+# Question 1: Calculate the product of first 10 natural numbers
+n = 1
+for i in range(1,11):
+  n = n*i
+print(n)
+
+# Question 2: Find the remainder when 156 is divided by 7
+a = 156
+b = 7
+remainder = a%b
+print(remainder)
+
+# Question 3: Calculate the square of 25
+a = 25
+sqr = a**2
+print(sqr)
+
+# Question 4: Find the cube root of 125
+a = 125
+cube= a**(1/3)
+print(cube)
+
+# Question 5: Calculate the sum of digits in number 12345
+sum = 0
+a = 12345
+for i in str(a):
+  i = int(i)
+  sum=sum + i
+print(sum)
+
+# Question 6: Check if 97 is a prime number
+a = 97
+n=0
+for i in range(1,a+1):
+  if a%i==0:
+    n=n+1
+if n==2:
+  print(f"{a} is a prime number")
+else:
+  print(f"{a} is not a prime number")
+
+# Question 7: Find the factorial of 8
+a = 8
+f = 1
+for i in range(1, a+1):
+  f = f * i
+print(f)
+
+# Question 8: Calculate the average of numbers: 15, 23, 31, 42, 56
+numbers = 15,23,31,42,56
+sum = 0
+print(type(numbers))
+length = len(avg_numbers)
+for i in numbers:
+  sum = sum +i
+avg = sum/length
+print(avg)
+
+# Question 9: Find the greatest common divisor (GCD) of 48 and 36
+a = 48
+b = 36
+GCD = 0
+for i in range(1,min(a,b)+1):
+  if a%i==0 and b%i==0:
+    GCD = i
+print(GCD)
+
+# Question 10: Calculate the sum of first 20 odd numbers
+total = 0
+for i in range(1, 40, 2):
+    total = total + i
+print("Sum:", total)
